@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONG CARD</title>
+    <script src="https://kit.fontawesome.com/47c07e88e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="song.css">
+</head>
+<body>
+    <section class="container"> 
+
+            <img src="photos/me.png" alt="a photo of me">
+            <div class="about-song">
+                <h3>Mudra De Viral</h3>
+                <p>Balo Balo Omwana Joel Azina</p>
+            </div>
+            <i class="fa-sharp fa-solid fa-pause" ></i>
+            <i class="fa-sharp fa-solid fa-play" ></i>
+
+    </section>
+      
+    <script>
+        const playBtn = document.querySelector('.fa-play');
+        const pauseBtn = document.querySelector('.fa-pause');
+        
+        playBtn.style.display = 'inherit';
+        pauseBtn.style.display = 'none';
+        
+        playBtn.addEventListener('click', function () {
+            playBtn.style.display = 'none';
+            pauseBtn.style.display = 'inherit';
+        });
+        
+        pauseBtn.addEventListener('click', function () {
+            pauseBtn.style.display = 'none';
+            playBtn.style.display = 'inherit';
+        });
+    </script>
+    
+</body>
+</html>

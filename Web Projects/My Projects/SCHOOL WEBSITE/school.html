@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47c07e88e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="school.html"><img src="IMAGES/logo.png" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest School</h1>
+            <p>
+                Making websites is not a long process as long as your consistent and give it time you need to learn 
+                HTML,<br>CSS and JavaScript then you will be good to go.
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+    <!-- COURSE SECTION -->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>JavaScript Mastery</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis pariatur quos sed nobis cumque, facere, quod modi, sunt error eum adipisci ab impedit consequuntur veritatis similique voluptatibus ratione neque reiciendis? Quasi, commodi aperiam.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis pariatur quos sed nobis cumque, facere, quod modi, sunt error eum adipisci ab impedit consequuntur veritatis similique voluptatibus ratione neque reiciendis? Quasi, commodi aperiam.</p>
+            </div>
+            <div class="course-col">
+                <h3>Certificate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis pariatur quos sed nobis cumque, facere, quod modi, sunt error eum adipisci ab impedit consequuntur veritatis similique voluptatibus ratione neque reiciendis? Quasi, commodi aperiam.</p>
+            </div>
+        </div>
+    </section>
+    
+<!-- --------JavaScript code to show and hide the menu---------- -->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        var showMenu = ()=> {
+            navLinks.style.right = "0";
+        }
+        var hideMenu = ()=> {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

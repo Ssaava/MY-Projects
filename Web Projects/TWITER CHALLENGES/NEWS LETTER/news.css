@@ -1,0 +1,113 @@
+:root {
+    --background: #1F2937;
+    --news-background: #141528;
+    --news-box: #FB5A5C, #DD6AAE;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+html {
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+body {
+    background: linear-gradient(
+        to bottom,
+        var(--news-background) 0%,
+        var(--news-background) 60%,
+        #fff 60%,
+        #fff
+    );
+    width: 100%;
+    max-width: 700px;
+    height: 530px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.div2 {
+    background: var(--news-background);
+    width: 60%;
+    border-radius: 6px;
+}
+.form {
+    width: 100%;
+    background: linear-gradient(to right, var(--news-box));
+    padding: 30px;
+    line-height: 1.5;
+    border-radius: 5px;
+    font-size: 11px;
+}
+h3 {
+    text-align: center;
+   font-size: 12px;
+}
+.p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 300;
+}
+form {
+    width: 75%;
+    margin: 0 auto;
+    height: 15px;
+    display: flex;
+}
+input {
+    width: 80%;
+    height: 30px;
+    background: transparent;
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 15px;
+    color: rgb(247, 233, 233);
+    cursor: pointer;
+}
+label {
+    background: #fff;
+    padding: 7px 0;
+    display: block;
+    height: 30px;
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    width: 20%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+label:hover {
+    background: #a3919c;
+    color: white;
+}
+
+/* Styling the content */
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+.content div {
+    line-height: 1.5;
+}
+.content h3 {
+    font-size: 16px;
+    font-weight: 1000;
+
+}
+.content p {
+    font-size: 10px;
+    font-weight: 300;
+}

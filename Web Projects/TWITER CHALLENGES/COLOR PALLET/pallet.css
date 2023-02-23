@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    padding: 140px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #1F2937;
+    font-family: system-ui;
+}
+.div1 {
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgb(236, 227, 227);
+    font-size: 0.8rem;
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 5px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: moveSides 1.5s linear 1s infinite alternate;
+}
+@keyframes moveSides {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.fa-twitter {
+    color: #1A8CD8;
+}
+.fa-heart {
+    color: red;
+}
+.fa-comment {
+    color: #1A8CD8;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    padding: 20px 0;
+    background: #E8ECF3;
+    border-radius: 10px;
+}
+.copied {
+    background: black;
+    color: white;
+    width: 70%;
+    max-width: 300px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0.65rem;
+    color: grey;
+}
+.copied span {
+    color: #f0e5e5;
+    font-size: 0.7rem;
+}
+.title {
+    width: 70%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+.pallet-div {
+    width: 80%;
+    border-radius: 10px;
+    margin: 30px auto;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+.pallet {
+    width: 110px;
+    height: 180px;
+    padding: 5px 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+}
+.color-div {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.color {
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: rgb(54, 54, 54);
+}
+button {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(63, 63, 163);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover {
+    background: blueviolet;
+}
+.instruction {
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+.instruction-copy {
+    background: white;
+    color: grey;
+    border-radius: 15px;
+    padding: 5px 10px;
+    max-width: max-content;
+    text-align: center;
+    margin: 30px auto 0;
+}
+.color-div-blue {
+    background: #1A8CD8;
+}
+.color-div-green {
+    background: #00aa55;
+}
+.color-div-yellow {
+    background: #707700;
+}
+.color-div-grey {
+    background: #1b2937;
+}
+.color-div-pink {
+    background: #bb1050;
+}

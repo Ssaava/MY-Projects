@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeMenu</title>
+    <link rel="icon" href="photos/cafeMenu.jpeg" type="image/x-icon">
+    <style>
+        h1,h2,p {
+            text-align: center;
+        }
+        h1,h2 {
+            font-family: Impact;
+        }
+        h1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        img {
+            margin-top: -25px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            padding: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+        }
+        .menu {
+            width: 80%;
+            background-color: burlywood;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            max-width: 500px;
+        }
+        .items p{
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        .item{
+            text-align: left;
+            width: 50%;
+        }
+        .price {
+            text-align: right;
+            width: 50%;
+        }
+        hr {
+            background-color: brown;
+            border-color: brown;
+            height: 2px;
+        }
+        .bottom-line {
+            margin-top: 25px;
+        }
+        /* FOOTER */
+        footer {
+            font-size: 14px;
+        }
+        a {
+            color: black
+        }
+        a:visited {
+            color: grey;
+        }
+        a:hover {
+            color: brown;
+        }
+        a:active {
+            color: white;
+        }
+        .lastP {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <main>
+            <h1>Emma's Cafe</h1>
+            <p>Est. 2020</p>
+            <hr>
+            <section class="items">
+                <h2>Coffee</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="Coffe Icon">
+<!-- the p tags are on the same line to make sure that they both cover 100% width --->
+<!-- to avoid imagining widths -->
+                <article>
+                    <p class="item">French Vanilla</p><p class="price">3.00</p>
+                  </article>
+                  <article>
+                    <p class="item">Caramel Macchiato</p><p class="price">3.75</p>
+                  </article>
+                  <article>
+                    <p class="item">Pumpkin Spice</p><p class="price">3.50</p>
+                  </article>
+                  <article>
+                    <p class="item">Hazelnut</p><p class="price">4.00</p>
+                  </article>
+                  <article>
+                    <p class="item">Mocha</p><p class="price">4.50</p>
+                  </article>
+            </section>
+            <hr>
+            <section>
+                <h2>Desserts</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+                <article class="items">
+                    <p class="item">Donut</p><p class="price">1.50</p>
+                </article>
+                <article class="items">
+                    <p class="item">Cherry Pie</p><p class="price">2.75</p>
+                </article>
+                <article class="items">
+                    <p class="item">Cheesecake</p><p class="price">3.00</p>
+                </article>
+                <article class="items">
+                    <p class="item">Cinnamon Roll</p><p class="price">2.50</p>
+                </article>
+            </section>
+        </main>
+        <hr class="bottom-line">
+        <footer>
+            <p>
+                <a href="/index.html">Visit our website</a>
+            </p>
+            <p class="lastP">
+                No Copyright - <a href="/index.html">Emmanuel</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

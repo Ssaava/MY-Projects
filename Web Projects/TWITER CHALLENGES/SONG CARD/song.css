@@ -1,0 +1,85 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: #F2F3FA;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: system-ui;
+    padding: 20px;
+}
+.container {
+    background: #FFFFFF;
+    height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 20px 20px;
+    border-radius: 5px;
+}
+img {
+    margin-top: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    margin-right: 20px;
+    -webkit-box-shadow: -1px 25px 25px 3px rgba(200,0,0,0.1);
+            box-shadow: -1px 25px 25px 3px rgba(200,0,0,0.1);
+}
+.about-song {
+    margin-right: 20px;
+}
+h3 {
+    font-size: 0.7rem;
+}
+p {
+    font-size: 0.5rem;
+}
+
+.fa-sharp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 7px solid #F1F2FA;
+    color: rgb(126, 126, 231);
+}
+.fa-sharp:hover {
+    color: white;
+    background: rgb(126, 126, 231);
+    
+}
+

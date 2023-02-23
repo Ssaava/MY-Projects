@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 50px 0;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top right, lightblue,pink, pink, lightblue);
+    height: 100vh;
+}
+.container {
+    width: 90%;
+    max-width: 600px;
+}
+h1 {
+    font-size: 2em;
+    font-family: "Trebuchet MS";
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.content {
+    width: 160px;
+    height: 125px;
+    font-size: 0.8em;
+    padding: 10px;
+    background: lightgray;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px whitesmoke;
+}
+.content:hover {
+    box-shadow: 5px 5px 30px 10px whitesmoke;
+}
+.content h2 {
+    padding: 20px 0;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(48, 16, 16);
+    width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0,0,0,.2) ;
+}
+.content p{
+    width: fit-content;
+    margin: 0 auto;
+}
+.content button {
+    padding: 3px 5px;
+    background: rgb(148, 191, 110);
+    border: 1px solid;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.content button:hover {
+    background-color: lightgreen;
+}

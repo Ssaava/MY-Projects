@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    background-color: black;
+    color: white;
+}
+#title {
+    text-align: center;
+}
+div {
+    padding: 30px;
+}
+#description {
+    text-align: center;
+}
+label {
+    display: block;
+    margin: 15px 0;
+}
+input, select {
+    height: 25px;
+    margin-top: 10px;
+    width: 100%;
+}
+form {
+    max-width: 700px;
+    border-radius: 0.5%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-width: fit-content;
+}
+.rad, .sele {
+    display: inline;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    width: unset;
+}
+fieldset {
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+fieldset:last-of-type {
+    border-bottom: none;
+}
+textarea {
+    width: 100%;
+}
+input[type="submit"] {
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+}
+#button {
+    width: fit-content;
+    margin: 30px auto;
+}
